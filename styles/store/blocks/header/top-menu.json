@@ -1,0 +1,42 @@
+{
+  "vtex.menu@2.x:menu#websites": {
+    "children": [
+      "menu-item#shop"
+    ]
+  },
+  "menu-item#shop": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Shop"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#institutional": {
+    "children": [
+      "menu-item#text-contatos"
+    ]
+  },
+  "menu-item#text-contatos": {
+    "props": {
+      "id": "menu-item-vtex-website",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "visit vtex.com",
+        "text": "Whatsapp: (42) 98408-0349  / Email: comercial@hospitalarcatarinense.com.br"
+      }
+    }
+  }
+}

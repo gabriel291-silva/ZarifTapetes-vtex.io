@@ -165,7 +165,7 @@
   border: none;
   background: none;
   font-size: 24px;
-  color: #4682B4;
+  color: #00008b;
   transition: opacity 150ms ease 0s;
 
 }
@@ -185,7 +185,7 @@
     background: none;
     border: none;
     width: 55px;
-    color: #4682B4;
+    color: #00008b;
 }
 :global(.vtex-product-quantity-1-x-quantitySelectorTitle){
   margin-top: -15px;

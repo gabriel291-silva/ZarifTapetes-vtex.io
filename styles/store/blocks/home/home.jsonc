@@ -1,0 +1,199 @@
+{
+  "store.home": {
+    "blocks": [
+      "list-context.image-list#demo",
+      "flex-layout.row#deals",
+      "rich-text#shelf-title",
+      "flex-layout.row#shelf",
+      "rich-text#tarjeta-title",
+      "list-context.image-list#slider-logos",
+      "rich-text#shelf-title",
+      "flex-layout.row#shelf",
+      "rich-text#shelf-title",
+      "flex-layout.row#shelf",
+      "list-context.image-list#slider-banner-footer",
+      "newsletter"
+
+
+    ],
+    "props":{
+      "blockClass":"home-contents"
+    }
+  },
+  "list-context.image-list#demo": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "blockClass":"bannerhome",
+      "height": 451,
+      "preload": true,
+      "images": [
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-desktop.png",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png"
+        },
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration.png",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration-mobile.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "Banner-home"
+    }
+  },
+
+  "rich-text#tarjeta-title": {
+    "props": {
+      "text": "## Summer",
+      "blockClass": "TarjetaTitle"
+    }
+  },
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "## Summer",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf": {
+    "children": ["list-context.product-list#demo1"]
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+  "info-card#home": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
+  },
+
+  "rich-text#question": {
+    "props": {
+      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
+      "blockClass": "question"
+    }
+  },
+
+  "rich-text#link": {
+    "props": {
+      "text": "\n**Reach us at**\nwww.vtex.com.br",
+      "blockClass": "link"
+    }
+  },
+
+
+  "list-context.image-list#slider-logos": {
+    "children": ["slider-layout#slider-logo-image"],
+    "props": {
+      "blockClass":"slider-colab",
+      "height": 200,
+      "preload": true,
+      "images": [
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-desktop.png",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png"
+        },
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration.png",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration-mobile.png"
+        }, {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-desktop.png",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png"
+        },
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration.png",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration-mobile.png"
+        },
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-desktop.png",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png"
+        },
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration.png",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration-mobile.png"
+        }, {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-desktop.png",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png"
+        },
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration.png",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration-mobile.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#slider-logo-image": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "slider-colab-image"
+    }
+  },
+
+  "list-context.image-list#slider-banner-footer": {
+    "children": ["slider-layout#slider-banner-footer-image"],
+    "props": {
+      "blockClass":"slider-footer",
+      "height": 200,
+      "preload": true,
+      "images": [
+        {
+          "image": "https://basedeapoio.vtexassets.com/assets/vtex.file-manager-graphql/images/e2607778-d117-4d50-90d9-9018b889b92e___80fad45dd366e82da857493b705953fc.jpeg",
+          "mobileImage": "https://basedeapoio.vtexassets.com/assets/vtex.file-manager-graphql/images/e2607778-d117-4d50-90d9-9018b889b92e___80fad45dd366e82da857493b705953fc.jpeg"
+        }
+      ]
+    }
+  },
+  "slider-layout#slider-banner-footer-image": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "slider-footer-image"
+    }
+  }
+
+
+}

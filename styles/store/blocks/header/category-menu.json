@@ -1,0 +1,931 @@
+{
+  "vtex.menu@2.x:menu#category-menu-header": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#category-accessibility",
+      "menu-item#category-personal-care",
+      "menu-item#category-bandages",
+      "menu-item#category-medical-equipment",
+      "menu-item#category-oxigenoterapia",
+      "menu-item#category-professional-protection"
+
+
+    ]
+  },
+
+  "menu-item#category-accessibility": {
+    "props": {
+      "id": "menu-item-category-accessibility",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/",
+        "noFollow": false,
+        "tagTitle": "Apparel ",
+        "text": "acessibilidade e mobilidade "
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-accessibility"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-accessibility": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-accessibility"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-accessibility": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-accessibility-clothing",
+      "menu-item#category-accessibility-accessories",
+      "menu-item#category-accessibility-eyeglasses",
+      "menu-item#category-accessibility-cadeira-de-banho",
+      "menu-item#category-accessibility-cadeira-de-rodas",
+      "menu-item#category-accessibility-muleta"
+    ]
+  },
+
+
+  "menu-item#category-accessibility-clothing": {
+    "props": {
+      "id": "menu-item-category-accessibility-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/accessibility---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Clothing",
+        "text": "Andador "
+      }
+    }
+  },
+  "menu-item#category-accessibility-accessories": {
+    "props": {
+      "id": "menu-item-category-accessibility-accessories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/accessibility---accessories/accessories/",
+        "noFollow": false,
+        "tagTitle": "Accessories",
+        "text": "Assento"
+      }
+    }
+  },
+  "menu-item#category-accessibility-eyeglasses": {
+    "props": {
+      "id": "menu-item-category-accessibility-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/accessibility---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "Bengalas "
+      }
+    }
+  },
+  "menu-item#category-accessibility-cadeira-de-banho": {
+    "props": {
+      "id": "menu-item-category-accessibility-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/accessibility---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "Cadeira de Banho  "
+      }
+    }
+  },
+  "menu-item#category-accessibility-cadeira-de-rodas": {
+    "props": {
+      "id": "menu-item-category-accessibility-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/accessibility---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "Cadeira de Rodas  "
+      }
+    }
+  },
+  "menu-item#category-accessibility-muleta": {
+    "props": {
+      "id": "menu-item-category-accessibility-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/accessibility---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "Muletas"
+      }
+    }
+  },
+
+
+
+  "menu-item#category-personal-care": {
+    "props": {
+      "id": "menu-item-category-personal-care",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/",
+        "noFollow": false,
+        "tagTitle": "Apparel ",
+        "text": "cuidado pessoal"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-personal-care"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-personal-care": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-personal-care"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-personal-care": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-personal-care-calcados",
+      "menu-item#category-personal-care-conforto",
+      "menu-item#category-personal-care-gestantes",
+      "menu-item#category-personal-care-higiene-pessoal",
+      "menu-item#category-personal-care-massageadores",
+      "menu-item#category-personal-care-travesseiros"
+    ]
+  },
+
+
+  "menu-item#category-personal-care-calcados": {
+    "props": {
+      "id": "menu-item-category-personal-care-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/personal-care---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Clothing",
+        "text": "calçados"
+      }
+    }
+  },
+  "menu-item#category-personal-care-conforto": {
+    "props": {
+      "id": "menu-item-category-personal-care-accessories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/personal-care---accessories/accessories/",
+        "noFollow": false,
+        "tagTitle": "Accessories",
+        "text": "conforto"
+      }
+    }
+  },
+  "menu-item#category-personal-care-gestantes": {
+    "props": {
+      "id": "menu-item-category-personal-care-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/personal-care---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "Bengalas "
+      }
+    }
+  },
+  "menu-item#category-personal-care-higiene-pessoal": {
+    "props": {
+      "id": "menu-item-category-personal-care-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/personal-care---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "higiene pessoal "
+      }
+    }
+  },
+  "menu-item#category-personal-care-massageadores": {
+    "props": {
+      "id": "menu-item-category-personal-care-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/personal-care---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "massageadores"
+      }
+    }
+  },
+  "menu-item#category-personal-care-travesseiros": {
+    "props": {
+      "id": "menu-item-category-personal-care-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/personal-care---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "travesseiros"
+      }
+    }
+  },
+
+
+  "menu-item#category-bandages": {
+    "props": {
+      "id": "menu-item-category-bandages",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/",
+        "noFollow": false,
+        "tagTitle": "Apparel ",
+        "text": "curativos"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-bandages"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-bandages": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-bandages"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-bandages": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-bandages-algodao",
+      "menu-item#category-bandages-antissepticos",
+      "menu-item#category-bandages-ataduras",
+      "menu-item#category-bandages-curativo-ocular",
+      "menu-item#category-bandages-curativo-especial",
+      "menu-item#category-bandages-fita-microporosa"
+    ]
+  },
+
+
+  "menu-item#category-bandages-algodao": {
+    "props": {
+      "id": "menu-item-category-bandages-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bandages---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Clothing",
+        "text": "algodão"
+      }
+    }
+  },
+  "menu-item#category-bandages-antissepticos": {
+    "props": {
+      "id": "menu-item-category-bandages-accessories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bandages---accessories/accessories/",
+        "noFollow": false,
+        "tagTitle": "Accessories",
+        "text": "antissepticos"
+      }
+    }
+  },
+  "menu-item#category-bandages-ataduras": {
+    "props": {
+      "id": "menu-item-category-bandages-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bandages---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "ataduras"
+      }
+    }
+  },
+  "menu-item#category-bandages-curativo-ocular": {
+    "props": {
+      "id": "menu-item-category-bandages-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bandages---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "curativo ocular"
+      }
+    }
+  },
+  "menu-item#category-bandages-curativo-especial": {
+    "props": {
+      "id": "menu-item-category-bandages-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bandages---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "curativo especial"
+      }
+    }
+  },
+  "menu-item#category-bandages-fita-microporosa": {
+    "props": {
+      "id": "menu-item-category-bandages-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bandages---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "fita microporosa"
+      }
+    }
+  },
+
+  "menu-item#category-medical-equipment": {
+    "props": {
+      "id": "menu-item-category-medical-equipment",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/",
+        "noFollow": false,
+        "tagTitle": "Apparel ",
+        "text": "equipamento medico"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-medical-equipment"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-medical-equipment": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-medical-equipment"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-medical-equipment": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-medical-equipment-acessorio",
+      "menu-item#category-medical-equipment-aparelho-de-pressao",
+      "menu-item#category-medical-equipment-estetoscopio",
+      "menu-item#category-medical-equipment-maleta",
+      "menu-item#category-medical-equipment-oximetro",
+      "menu-item#category-medical-equipment-termometro"
+    ]
+  },
+
+
+  "menu-item#category-medical-equipment-acessorio": {
+    "props": {
+      "id": "menu-item-category-medical-equipment-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/medical-equipment---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Clothing",
+        "text": "acessorio de equipamento"
+      }
+    }
+  },
+  "menu-item#category-medical-equipment-aparelho-de-pressao": {
+    "props": {
+      "id": "menu-item-category-medical-equipment-accessories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/medical-equipment---accessories/accessories/",
+        "noFollow": false,
+        "tagTitle": "Accessories",
+        "text": "aparelho de apressão"
+      }
+    }
+  },
+  "menu-item#category-medical-equipment-estetoscopio": {
+    "props": {
+      "id": "menu-item-category-medical-equipment-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/medical-equipment---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "estetoscopios"
+      }
+    }
+  },
+  "menu-item#category-medical-equipment-maleta": {
+    "props": {
+      "id": "menu-item-category-medical-equipment-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/medical-equipment---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "maleta"
+      }
+    }
+  },
+  "menu-item#category-medical-equipment-oximetro": {
+    "props": {
+      "id": "menu-item-category-medical-equipment-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/medical-equipment---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "oximetro"
+      }
+    }
+  },
+  "menu-item#category-medical-equipment-termometro": {
+    "props": {
+      "id": "menu-item-category-medical-equipment-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/medical-equipment---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "termometro"
+      }
+    }
+  },
+
+
+  "menu-item#category-oxigenoterapia": {
+    "props": {
+      "id": "menu-item-category-oxigenoterapia",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/",
+        "noFollow": false,
+        "tagTitle": "Apparel ",
+        "text": "oxigenoterapia"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-oxigenoterapia"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-oxigenoterapia": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-oxigenoterapia"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-oxigenoterapia": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-oxigenoterapia-cateter-nasal",
+      "menu-item#category-oxigenoterapia-concentradores-oxigenio",
+      "menu-item#category-oxigenoterapia-mascara-oxigenio",
+      "menu-item#category-oxigenoterapia-nebulizadores",
+      "menu-item#category-oxigenoterapia-tubo-oxigenio",
+      "menu-item#category-oxigenoterapia-valvulas"
+
+
+    ]
+  },
+
+
+  "menu-item#category-oxigenoterapia-cateter-nasal": {
+    "props": {
+      "id": "menu-item-category-oxigenoterapia-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/oxigenoterapia---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Clothing",
+        "text": "cateter nasal"
+      }
+    }
+  },
+  "menu-item#category-oxigenoterapia-concentradores-oxigenio": {
+    "props": {
+      "id": "menu-item-category-oxigenoterapia-accessories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/oxigenoterapia---accessories/accessories/",
+        "noFollow": false,
+        "tagTitle": "Accessories",
+        "text": "concentradores de oxigenio"
+      }
+    }
+  },
+  "menu-item#category-oxigenoterapia-mascara-oxigenio": {
+    "props": {
+      "id": "menu-item-category-oxigenoterapia-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/oxigenoterapia---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "mascara de oxigenio"
+      }
+    }
+  },
+  "menu-item#category-oxigenoterapia-nebulizadores": {
+    "props": {
+      "id": "menu-item-category-oxigenoterapia-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/oxigenoterapia---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "nebulizadores"
+      }
+    }
+  },
+  "menu-item#category-oxigenoterapia-tubo-oxigenio": {
+    "props": {
+      "id": "menu-item-category-oxigenoterapia-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/oxigenoterapia---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "tubo de oxigenio"
+      }
+    }
+  },
+  "menu-item#category-oxigenoterapia-valvulas": {
+    "props": {
+      "id": "menu-item-category-oxigenoterapia-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/oxigenoterapia---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "valvulas"
+      }
+    }
+  },
+
+  "menu-item#category-professional-protection": {
+    "props": {
+      "id": "menu-item-category-professional-protection",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/",
+        "noFollow": false,
+        "tagTitle": "Apparel ",
+        "text": "proteção profissional"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-professional-protection"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-professional-protection": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-professional-protection"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-professional-protection": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-professional-protection-aventais",
+      "menu-item#category-professional-protection-calcados",
+      "menu-item#category-professional-protection-luvas",
+      "menu-item#category-professional-protection-luvas",
+      "menu-item#category-professional-protection-mascara",
+      "menu-item#category-professional-protection-toucas",
+      "menu-item#category-professional-protection-oculos"
+
+    ]
+  },
+
+
+  "menu-item#category-professional-protection-aventais": {
+    "props": {
+      "id": "menu-item-category-professional-protection-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/professional-protection---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Clothing",
+        "text": "aventais"
+      }
+    }
+  },
+  "menu-item#category-professional-protection-calcados": {
+    "props": {
+      "id": "menu-item-category-professional-protection-accessories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/professional-protection---accessories/accessories/",
+        "noFollow": false,
+        "tagTitle": "Accessories",
+        "text": "calçados"
+      }
+    }
+  },
+  "menu-item#category-professional-protection-luvas": {
+    "props": {
+      "id": "menu-item-category-professional-protection-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/professional-protection---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "luvas "
+      }
+    }
+  },
+  "menu-item#category-professional-protection-mascara": {
+    "props": {
+      "id": "menu-item-category-professional-protection-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/professional-protection---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "mascaras"
+      }
+    }
+  },
+  "menu-item#category-professional-protection-toucas": {
+    "props": {
+      "id": "menu-item-category-professional-protection-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/professional-protection---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "toucas"
+      }
+    }
+  },
+  "menu-item#category-professional-protection-oculos": {
+    "props": {
+      "id": "menu-item-category-professional-protection-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/professional-protection---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "óculos"
+      }
+    }
+  },
+
+
+
+
+
+
+
+
+  "menu-item#category-home": {
+    "props": {
+      "id": "menu-item-category-home",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home---decor/",
+        "noFollow": false,
+        "tagTitle": "Home & Decor",
+        "text": "Home & Decor"
+      }
+    }
+  },
+  "menu-item#more": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "More",
+        "text": "More"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#more"
+    ]
+  },
+  "vtex.menu@2.x:submenu#more": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#menu-more"
+    ]
+  },
+  "flex-layout.row#menu-more": {
+    "children": [
+      "flex-layout.col#menu-more-1"
+    ]
+  },
+  "flex-layout.col#menu-more-1": {
+    "children": [
+      "vtex.menu@2.x:menu#more"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#more": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#about-us",
+      "menu-item#faq"
+    ]
+  },
+  "menu-item#about-us": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "About us"
+      }
+    }
+  },
+  "menu-item#faq": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "FAQ"
+      }
+    }
+  },
+  "menu-item#contact-us": {
+    "props": {
+      "id": "menu-item-contact-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact-us",
+        "noFollow": true,
+        "tagTitle": "Contact Us",
+        "text": "Contact Us"
+      }
+    }
+  }
+}
