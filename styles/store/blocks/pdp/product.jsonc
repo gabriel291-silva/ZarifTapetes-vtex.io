@@ -120,6 +120,13 @@
       "blockClass":"product-buy"
     }
   },
+  "product-quantity": {
+    "props": {
+      "warningQuantityThreshold": 9999999,
+      "showUnit": false,
+      "quantitySelectorStep":"unitMultiplier"
+    }
+  },
 
   "flex-layout.row#product-name": {
     "props": {

@@ -4,14 +4,6 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
-      "menu-item#category-accessibility",
-      "menu-item#category-personal-care",
-      "menu-item#category-bandages",
-      "menu-item#category-medical-equipment",
-      "menu-item#category-oxigenoterapia",
-      "menu-item#category-professional-protection"
-
-
     ]
   },
 

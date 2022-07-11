@@ -64,7 +64,7 @@
 }
 
 .savings--summaryPercentage {
-  background: #0000CD;
+  background:rgb(064,128,255);
   border-radius: 1000px;
   align-items: center;
   display: flex;
