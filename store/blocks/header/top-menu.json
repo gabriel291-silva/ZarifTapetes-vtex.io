@@ -22,7 +22,10 @@
   "vtex.menu@2.x:menu#institutional": {
     "children": [
       "menu-item#text-contatos"
-    ]
+    ],
+    "props":{
+      "blockclass":"institutional-tarjeta"
+    }
   },
   "menu-item#text-contatos": {
     "props": {

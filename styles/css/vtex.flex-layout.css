@@ -1,6 +1,6 @@
 .flexRowContent--tarjeta-header,
 .flexRowContent--header-desktop {
-  padding: 0 0.5rem;
+  padding: 0 0;
 }
 .flexRow--header-categorys-desktop{
   background-color: #fff;
@@ -14,21 +14,23 @@ display: flex;
 }
 .flexRow--deals {
   background-color:transparent !important ;
-  padding: 14px 0px;
+  padding: 0px;
   margin-top: 15px;
+  margin-bottom: 32px;
 }
 .flexRow--deals .flexCol {
-  align-items: center;
-  padding: 10px 0;
-  background: rgb(064,128,255) !important;
-  margin: 0 5px;
-  padding-top: 15px !important;
-  padding: 20px 16px;
-  margin-bottom: 0px !important;
+  background: #fff!important;
+  border: solid 1px rgb(064,128,255);
+  border-radius: 5px;
+  margin: 0px 5px;
+  padding-top: 9px!important;
+  padding: 0px;
+  margin-bottom: 0px!important;
 }
 .flexRowContent--deals{
-  width: 100% !important;
+  width: 85% !important;
   margin: 0 auto;
+  height: 70px;
 }
 @media screen and (min-width: 40em) {
   .flexRowContent--tarjeta-header,
@@ -52,6 +54,7 @@ display: flex;
 .flexRowContent--header-desktop {
   background-color: #fff;
   padding-top: 15px;
+  padding-bottom: 0px;
 }
 
 .flexRowContent--main-header-mobile {
@@ -61,18 +64,10 @@ display: flex;
 }
 
 .flexRowContent--tarjeta-header :global(.vtex-menu-2-x-styledLink) {
-  color: #ffffff;
+  color: #ffffff !important;
   font-size: 14px;
-}
-
-.flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
-  color: #727273;
-  font-size: 14px;
-}
-
-.flexRow--deals {
-  background-color: rgb(064,128,255);
-  padding: 14px 0px;
+  font-weight: 900;
+  letter-spacing: 1px;
 }
 
 .flexRow--deals .stretchChildrenWidth {

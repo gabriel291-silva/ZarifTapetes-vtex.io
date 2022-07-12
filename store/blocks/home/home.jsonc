@@ -3,13 +3,15 @@
     "blocks": [
       "list-context.image-list#demo",
       "flex-layout.row#deals",
-      "rich-text#shelf-title",
+      "rich-text#shelf-title-one",
       "flex-layout.row#shelf",
-      "rich-text#tarjeta-title",
-      "list-context.image-list#slider-logos",
-      "rich-text#shelf-title",
+      "rich-text#shelf-title-two",
       "flex-layout.row#shelf",
-      "rich-text#shelf-title",
+      "rich-text#shelf-title-tree",
+      "flex-layout.row#shelf",
+      "rich-text#shelf-title-for",
+      "flex-layout.row#shelf",
+      "rich-text#shelf-title-five",
       "flex-layout.row#shelf",
       "list-context.image-list#slider-banner-footer",
       "newsletter"
@@ -57,7 +59,31 @@
       "blockClass": "TarjetaTitle"
     }
   },
-  "rich-text#shelf-title": {
+  "rich-text#shelf-title-one": {
+    "props": {
+      "text": "## Summer",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "rich-text#shelf-title-two": {
+    "props": {
+      "text": "## Summer",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "rich-text#shelf-title-tree": {
+    "props": {
+      "text": "## Summer",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "rich-text#shelf-title-for": {
+    "props": {
+      "text": "## Summer",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "rich-text#shelf-title-five": {
     "props": {
       "text": "## Summer",
       "blockClass": "shelfTitle"

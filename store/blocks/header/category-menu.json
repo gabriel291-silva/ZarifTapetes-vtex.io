@@ -1,9 +1,11 @@
 {
   "vtex.menu@2.x:menu#category-menu-header": {
     "props": {
-      "experimentalOptimizeRendering": true
+      "experimentalOptimizeRendering": true,
+      "blockclass":"menu-category"
     },
     "children": [
+      "menu-item#category-accessibility"
     ]
   },
 

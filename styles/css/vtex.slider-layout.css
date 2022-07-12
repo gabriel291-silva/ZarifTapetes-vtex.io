@@ -25,15 +25,17 @@
 
 .slide--shelf {
   margin-bottom: 25px;
-  padding-left: 0px;
+  padding-left: 3px;
   padding-right: 0px;
-  min-height: 492px;
+  max-width: 186px;
+  max-height: 400px;
 
 }
 .slide--shelf:hover{
   -webkit-box-shadow: -9px 9px 30px -10px rgba(0,0,0,0.75);
   -moz-box-shadow: -9px 9px 30px -10px rgba(0,0,0,0.75);
   box-shadow: -9px 9px 30px -10px rgba(0,0,0,0.75);
+  border-radius: 5px;
 }
 .sliderTrackContainer--shelf{
   padding: 26px;
@@ -44,6 +46,7 @@
     width: 42px;
     border-radius: 50%;
     color: #fff;
+    border: solid;
 }
 
 .sliderTrackContainer--slider-colab-image {
@@ -61,12 +64,13 @@
 }
 .slideChildrenContainer--shelf{
   padding: 4px;
-    background: #fff;
-    border: none;
-    border-radius: 8px;
-    text-align: left;
-    max-width: 265px;
-    margin: 0px 10px 2px;
+  background: #fff;
+  border: none;
+  border-radius: 8px;
+  text-align: left;
+  max-width: 180px;
+  max-height: 400px;
+  margin: 0px 0px 0px;
 }
 .paginationDotsContainer--slider-colab-image{
   margin-bottom: -22px !important;
@@ -83,6 +87,8 @@
 }
 .sliderLayoutContainer--Banner-home{
   height: 100%;
+  max-width: 1168px;
+  margin: 0 auto;
 }
 .paginationDotsContainer--slider-colab-image{
   display: none;

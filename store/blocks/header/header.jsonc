@@ -30,8 +30,6 @@
       "fullWidth": true
     },
     "children": [
-      "vtex.menu@2.x:menu#websites",
-      "flex-layout.col#spacer",
       "vtex.menu@2.x:menu#institutional"
     ]
   },

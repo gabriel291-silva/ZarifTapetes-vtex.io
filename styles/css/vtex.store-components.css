@@ -270,4 +270,11 @@
   width: 150px;
   height: 31px;
 }
-
+.logoImage{
+  height: 58px !important;
+  margin-left: -42px;
+  margin-right: 42px;
+}
+:global(.vtex-add-to-cart-button-0-x-buttonText){
+  font-size: 13px;
+}
