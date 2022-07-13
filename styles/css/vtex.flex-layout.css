@@ -10,7 +10,9 @@ display: flex;
 }
 
 .flexRowContent--header-categorys-desktop{
-  border-top: solid 1px #fff
+background: #F5F5F5;
+height: 43px;
+border-top: solid 1px #fff;
 }
 .flexRow--deals {
   background-color:transparent !important ;
@@ -20,8 +22,7 @@ display: flex;
 }
 .flexRow--deals .flexCol {
   background: #fff!important;
-  border: solid 1px rgb(064,128,255);
-  border-radius: 5px;
+  border: solid 1px lightgray;
   margin: 0px 5px;
   padding-top: 9px!important;
   padding: 0px;
@@ -30,7 +31,7 @@ display: flex;
 .flexRowContent--deals{
   width: 85% !important;
   margin: 0 auto;
-  height: 70px;
+  height: 106px;
 }
 @media screen and (min-width: 40em) {
   .flexRowContent--tarjeta-header,
@@ -47,14 +48,14 @@ display: flex;
 }
 
 .flexRowContent--tarjeta-header {
-  background-color: rgb(064,128,255);
-  color: #fff;
+
+  background: lightgray;
 }
 
 .flexRowContent--header-desktop {
-  background-color: #fff;
+  background-color: whitesmoke;
   padding-top: 15px;
-  padding-bottom: 0px;
+  padding-bottom: 15px;
 }
 
 .flexRowContent--main-header-mobile {
@@ -129,6 +130,8 @@ display: flex;
 .stretchChildrenWidth {
   justify-content: center;
   font-size: 13px;
+  background: whitesmoke;
+  margin-bottom: 32px;
 }
 @media screen and (max-width: 600px) {
   .flexRowContent--product-buy {

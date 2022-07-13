@@ -1,5 +1,5 @@
 .container--deals {
-  color: rgb(064,128,255);
+  color: darkslategray;
   font-weight: 100;
   text-align: center;
   justify-content: center;
@@ -15,6 +15,12 @@
 
 .headingLevel2--shelfTitle {
   font-weight: 200;
+  font-size: 29px;
+  font-family: 'Roboto';
+  color: gray;
+  text-transform: capitalize;
+  font-style: italic;
+  margin: 10px 0px;
 }
 
 .container--deals .paragraph {
@@ -104,4 +110,10 @@
   .container--TarjetaTitle{
     margin-bottom: -30px;
   }
+}
+.wrapper--shelfTitle{
+  background: whitesmoke;
+    padding: 0px 13px;
+    border-radius: 11px 11px 0px 0px;
+    margin-bottom: -13px;
 }

@@ -117,13 +117,11 @@
   border-radius: 30px;
   width: 600px;
 }
-.container {
-  max-width: 1168px;
-}
 
 @media only screen and (min-width: 900px) {
   :global(.vtex-input-prefix__group){
     width: 100%;
+    border-radius: 0px;
   }
 }
 

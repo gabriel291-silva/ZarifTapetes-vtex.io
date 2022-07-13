@@ -68,9 +68,10 @@
   border: none;
   border-radius: 8px;
   text-align: left;
-  max-width: 180px;
+  max-width: 200px;
   max-height: 400px;
   margin: 0px 0px 0px;
+  padding: 0px 11px;
 }
 .paginationDotsContainer--slider-colab-image{
   margin-bottom: -22px !important;
@@ -95,4 +96,7 @@
 }
 .paginationDotsContainer--shelf{
   display: none;
+}
+.sliderLayoutContainer--shelf{
+  max-width: 1168px;
 }
