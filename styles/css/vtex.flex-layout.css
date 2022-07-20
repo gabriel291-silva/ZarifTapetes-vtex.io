@@ -129,7 +129,6 @@ border-top: solid 1px #fff;
 .stretchChildrenWidth {
   justify-content: center;
   font-size: 13px;
-  margin-bottom: 32px;
 }
 @media screen and (max-width: 600px) {
   .flexRowContent--product-buy {
