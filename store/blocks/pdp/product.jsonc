@@ -2,7 +2,7 @@
   "store.product": {
     "children": [
       "flex-layout.row#product-breadcrumb",
-      "condition-layout.product#availability",
+      "flex-layout.row#produt-infos-visible",
       "flex-layout.row#description",
       "flex-layout.row#specifications-title",
       "product-specification-group#table",
@@ -31,6 +31,12 @@
     },
     "children": ["product-description"]
   },
+"flex-layout.row#produt-infos-visible":{
+  "props":{
+    "blockClass":"product-infos-visible"
+  },
+  "children": ["condition-layout.product#availability"]
+},
   "condition-layout.product#availability": {
     "props": {
       "conditions": [

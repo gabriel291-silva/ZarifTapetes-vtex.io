@@ -7,4 +7,6 @@
   text-transform: uppercase;
   font-weight: 500;
 }
-
+:global(.vtex-menu-2-x-styledLinkContent){
+  font-weight: bold;
+}

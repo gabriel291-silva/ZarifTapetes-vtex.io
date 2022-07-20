@@ -47,7 +47,10 @@
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
-      "blockClass": "Banner-home"
+      "blockClass": "Banner-home",
+      "autoplay":{
+        "timeout":5000
+      }
     }
   },
 
