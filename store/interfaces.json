@@ -4,5 +4,9 @@
   },
   "teste": {
     "component": "Teste"
+  },
+  "footer-new":{
+    "component":"Footer"
+
   }
 }
