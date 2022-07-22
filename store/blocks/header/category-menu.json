@@ -5,10 +5,15 @@
       "blockclass":"menu-category"
     },
     "children": [
+      "menu-item#category-hambiente",
+      "menu-item#category-personal-care",
+      "menu-item#category-bandages",
+      "menu-item#category-medical-equipment",
+      "menu-item#category-oxigenoterapia"
     ]
   },
 
-  "menu-item#category-accessibility": {
+  "menu-item#category-hambiente": {
     "props": {
       "id": "menu-item-category-accessibility",
       "type": "custom",
@@ -19,7 +24,7 @@
         "href": "/apparel---accessories/",
         "noFollow": false,
         "tagTitle": "Apparel ",
-        "text": "acessibilidade e mobilidade "
+        "text": "Hambiente"
       }
     },
     "blocks": [
@@ -60,7 +65,7 @@
         "href": "/accessibility---accessories/clothing/",
         "noFollow": false,
         "tagTitle": "Clothing",
-        "text": "Andador "
+        "text": "sala de estar "
       }
     }
   },
