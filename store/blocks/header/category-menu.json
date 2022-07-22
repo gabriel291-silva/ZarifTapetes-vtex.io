@@ -9,7 +9,14 @@
       "menu-item#category-personal-care",
       "menu-item#category-bandages",
       "menu-item#category-medical-equipment",
-      "menu-item#category-oxigenoterapia"
+      "menu-item#category-oxigenoterapia",
+      "menu-item#category-professional-protection",
+      "menu-item#category-sete",
+      "menu-item#category-oito",
+      "menu-item#category-nove",
+      "menu-item#category-dez",
+      "menu-item#category-onze"
+
     ]
   },
 
@@ -813,8 +820,674 @@
     }
   },
 
+  "menu-item#category-sete": {
+    "props": {
+      "id": "menu-item-category-sete",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/",
+        "noFollow": false,
+        "tagTitle": "Apparel ",
+        "text": "proteção profissional"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-sete"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-sete": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-sete"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-sete": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-sete-aventais",
+      "menu-item#category-sete-calcados",
+      "menu-item#category-sete-luvas",
+      "menu-item#category-sete-luvas",
+      "menu-item#category-sete-mascara",
+      "menu-item#category-sete-toucas",
+      "menu-item#category-sete-oculos"
+
+    ]
+  },
 
 
+  "menu-item#category-sete-aventais": {
+    "props": {
+      "id": "menu-item-category-sete-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sete---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Clothing",
+        "text": "aventais"
+      }
+    }
+  },
+  "menu-item#category-sete-calcados": {
+    "props": {
+      "id": "menu-item-category-sete-accessories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sete---accessories/accessories/",
+        "noFollow": false,
+        "tagTitle": "Accessories",
+        "text": "calçados"
+      }
+    }
+  },
+  "menu-item#category-sete-luvas": {
+    "props": {
+      "id": "menu-item-category-sete-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sete---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "luvas "
+      }
+    }
+  },
+  "menu-item#category-sete-mascara": {
+    "props": {
+      "id": "menu-item-category-sete-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sete---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "mascaras"
+      }
+    }
+  },
+  "menu-item#category-sete-toucas": {
+    "props": {
+      "id": "menu-item-category-sete-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sete---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "toucas"
+      }
+    }
+  },
+  "menu-item#category-sete-oculos": {
+    "props": {
+      "id": "menu-item-category-sete-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sete---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "óculos"
+      }
+    }
+  },
+
+  "menu-item#category-oito": {
+    "props": {
+      "id": "menu-item-category-oito",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/",
+        "noFollow": false,
+        "tagTitle": "Apparel ",
+        "text": "proteção profissional"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-oito"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-oito": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-oito"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-oito": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-oito-aventais",
+      "menu-item#category-oito-calcados",
+      "menu-item#category-oito-luvas",
+      "menu-item#category-oito-luvas",
+      "menu-item#category-oito-mascara",
+      "menu-item#category-oito-toucas",
+      "menu-item#category-oito-oculos"
+
+    ]
+  },
+
+
+  "menu-item#category-oito-aventais": {
+    "props": {
+      "id": "menu-item-category-oito-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/oito---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Clothing",
+        "text": "aventais"
+      }
+    }
+  },
+  "menu-item#category-oito-calcados": {
+    "props": {
+      "id": "menu-item-category-oito-accessories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/oito---accessories/accessories/",
+        "noFollow": false,
+        "tagTitle": "Accessories",
+        "text": "calçados"
+      }
+    }
+  },
+  "menu-item#category-oito-luvas": {
+    "props": {
+      "id": "menu-item-category-oito-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/oito---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "luvas "
+      }
+    }
+  },
+  "menu-item#category-oito-mascara": {
+    "props": {
+      "id": "menu-item-category-oito-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/oito---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "mascaras"
+      }
+    }
+  },
+  "menu-item#category-oito-toucas": {
+    "props": {
+      "id": "menu-item-category-oito-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/oito---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "toucas"
+      }
+    }
+  },
+  "menu-item#category-oito-oculos": {
+    "props": {
+      "id": "menu-item-category-oito-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/oito---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "óculos"
+      }
+    }
+  },
+
+  "menu-item#category-nove": {
+    "props": {
+      "id": "menu-item-category-nove",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/",
+        "noFollow": false,
+        "tagTitle": "Apparel ",
+        "text": "proteção profissional"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-nove"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-nove": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-nove"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-nove": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-nove-aventais",
+      "menu-item#category-nove-calcados",
+      "menu-item#category-nove-luvas",
+      "menu-item#category-nove-luvas",
+      "menu-item#category-nove-mascara",
+      "menu-item#category-nove-toucas",
+      "menu-item#category-nove-oculos"
+
+    ]
+  },
+
+
+  "menu-item#category-nove-aventais": {
+    "props": {
+      "id": "menu-item-category-nove-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nove---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Clothing",
+        "text": "aventais"
+      }
+    }
+  },
+  "menu-item#category-nove-calcados": {
+    "props": {
+      "id": "menu-item-category-nove-accessories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nove---accessories/accessories/",
+        "noFollow": false,
+        "tagTitle": "Accessories",
+        "text": "calçados"
+      }
+    }
+  },
+  "menu-item#category-nove-luvas": {
+    "props": {
+      "id": "menu-item-category-nove-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nove---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "luvas "
+      }
+    }
+  },
+  "menu-item#category-nove-mascara": {
+    "props": {
+      "id": "menu-item-category-nove-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nove---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "mascaras"
+      }
+    }
+  },
+  "menu-item#category-nove-toucas": {
+    "props": {
+      "id": "menu-item-category-nove-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nove---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "toucas"
+      }
+    }
+  },
+  "menu-item#category-nove-oculos": {
+    "props": {
+      "id": "menu-item-category-nove-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nove---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "óculos"
+      }
+    }
+  },
+  "menu-item#category-dez": {
+    "props": {
+      "id": "menu-item-category-dez",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/",
+        "noFollow": false,
+        "tagTitle": "Apparel ",
+        "text": "proteção profissional"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-dez"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-dez": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-dez"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-dez": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-dez-aventais",
+      "menu-item#category-dez-calcados",
+      "menu-item#category-dez-luvas",
+      "menu-item#category-dez-luvas",
+      "menu-item#category-dez-mascara",
+      "menu-item#category-dez-toucas",
+      "menu-item#category-dez-oculos"
+
+    ]
+  },
+
+
+  "menu-item#category-dez-aventais": {
+    "props": {
+      "id": "menu-item-category-dez-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/dez---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Clothing",
+        "text": "aventais"
+      }
+    }
+  },
+  "menu-item#category-dez-calcados": {
+    "props": {
+      "id": "menu-item-category-dez-accessories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/dez---accessories/accessories/",
+        "noFollow": false,
+        "tagTitle": "Accessories",
+        "text": "calçados"
+      }
+    }
+  },
+  "menu-item#category-dez-luvas": {
+    "props": {
+      "id": "menu-item-category-dez-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/dez---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "luvas "
+      }
+    }
+  },
+  "menu-item#category-dez-mascara": {
+    "props": {
+      "id": "menu-item-category-dez-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/dez---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "mascaras"
+      }
+    }
+  },
+  "menu-item#category-dez-toucas": {
+    "props": {
+      "id": "menu-item-category-dez-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/dez---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "toucas"
+      }
+    }
+  },
+  "menu-item#category-dez-oculos": {
+    "props": {
+      "id": "menu-item-category-dez-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/dez---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "óculos"
+      }
+    }
+  },
+
+  "menu-item#category-onze": {
+    "props": {
+      "id": "menu-item-category-onze",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/",
+        "noFollow": false,
+        "tagTitle": "Apparel ",
+        "text": "proteção profissional"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-onze"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-onze": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-onze"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-onze": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-onze-aventais",
+      "menu-item#category-onze-calcados",
+      "menu-item#category-onze-luvas",
+      "menu-item#category-onze-luvas",
+      "menu-item#category-onze-mascara",
+      "menu-item#category-onze-toucas",
+      "menu-item#category-onze-oculos"
+
+    ]
+  },
+
+
+  "menu-item#category-onze-aventais": {
+    "props": {
+      "id": "menu-item-category-onze-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/onze---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Clothing",
+        "text": "aventais"
+      }
+    }
+  },
+  "menu-item#category-onze-calcados": {
+    "props": {
+      "id": "menu-item-category-onze-accessories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/onze---accessories/accessories/",
+        "noFollow": false,
+        "tagTitle": "Accessories",
+        "text": "calçados"
+      }
+    }
+  },
+  "menu-item#category-onze-luvas": {
+    "props": {
+      "id": "menu-item-category-onze-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/onze---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "luvas "
+      }
+    }
+  },
+  "menu-item#category-onze-mascara": {
+    "props": {
+      "id": "menu-item-category-onze-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/onze---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "mascaras"
+      }
+    }
+  },
+  "menu-item#category-onze-toucas": {
+    "props": {
+      "id": "menu-item-category-onze-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/onze---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "toucas"
+      }
+    }
+  },
+  "menu-item#category-onze-oculos": {
+    "props": {
+      "id": "menu-item-category-onze-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/onze---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "óculos"
+      }
+    }
+  },
 
 
 
