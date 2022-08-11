@@ -1,19 +1,15 @@
 {
   "store.home": {
     "blocks": [
-      "list-context.image-list#demo",
-      "flex-layout.row#deals",
       "rich-text#shelf-title-one",
       "flex-layout.row#shelf-one",
+      "flex-layout.row#deals",
       "rich-text#shelf-title-two",
       "flex-layout.row#shelf-two",
       "rich-text#shelf-title-tree",
       "flex-layout.row#shelf-tree",
       "rich-text#shelf-title-for",
       "flex-layout.row#shelf-for",
-      "rich-text#shelf-title-five",
-      "flex-layout.row#shelf-five",
-      "list-context.image-list#slider-banner-footer",
       "newsletter"
     ],
     "props":{

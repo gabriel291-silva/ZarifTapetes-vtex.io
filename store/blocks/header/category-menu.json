@@ -720,7 +720,6 @@
       "menu-item#category-professional-protection-aventais",
       "menu-item#category-professional-protection-calcados",
       "menu-item#category-professional-protection-luvas",
-      "menu-item#category-professional-protection-luvas",
       "menu-item#category-professional-protection-mascara",
       "menu-item#category-professional-protection-toucas",
       "menu-item#category-professional-protection-oculos"
@@ -853,7 +852,6 @@
     "children": [
       "menu-item#category-sete-aventais",
       "menu-item#category-sete-calcados",
-      "menu-item#category-sete-luvas",
       "menu-item#category-sete-luvas",
       "menu-item#category-sete-mascara",
       "menu-item#category-sete-toucas",
@@ -988,7 +986,6 @@
       "menu-item#category-oito-aventais",
       "menu-item#category-oito-calcados",
       "menu-item#category-oito-luvas",
-      "menu-item#category-oito-luvas",
       "menu-item#category-oito-mascara",
       "menu-item#category-oito-toucas",
       "menu-item#category-oito-oculos"
@@ -1122,7 +1119,6 @@
       "menu-item#category-nove-aventais",
       "menu-item#category-nove-calcados",
       "menu-item#category-nove-luvas",
-      "menu-item#category-nove-luvas",
       "menu-item#category-nove-mascara",
       "menu-item#category-nove-toucas",
       "menu-item#category-nove-oculos"
@@ -1254,7 +1250,6 @@
     "children": [
       "menu-item#category-dez-aventais",
       "menu-item#category-dez-calcados",
-      "menu-item#category-dez-luvas",
       "menu-item#category-dez-luvas",
       "menu-item#category-dez-mascara",
       "menu-item#category-dez-toucas",
@@ -1388,7 +1383,6 @@
     "children": [
       "menu-item#category-onze-aventais",
       "menu-item#category-onze-calcados",
-      "menu-item#category-onze-luvas",
       "menu-item#category-onze-luvas",
       "menu-item#category-onze-mascara",
       "menu-item#category-onze-toucas",
