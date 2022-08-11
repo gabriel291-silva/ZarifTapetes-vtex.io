@@ -111,7 +111,7 @@
   },
   "flex-layout.row#1-mobile": {
     "children": [
-      "drawer",
+      "menu-mobile-new",
       "logo#mobile",
       "flex-layout.col#spacer",
       "login",
