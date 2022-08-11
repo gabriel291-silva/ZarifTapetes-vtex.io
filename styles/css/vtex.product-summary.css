@@ -46,3 +46,14 @@
 .image {
   border-radius: 0.25rem;
 }
+
+@media only screen and (max-width: 600px)  {
+
+  .productNameContainer{
+  height: 30px;
+  }
+  .nameContainer{
+    height: 30px;
+  }
+
+}

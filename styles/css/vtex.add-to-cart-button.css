@@ -1,0 +1,9 @@
+.buttonText{
+  font-size: 13px;
+}
+
+@media only screen and (max-width:600px){
+  .buttonText{
+    font-size: 10px;
+  }
+}

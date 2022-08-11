@@ -137,4 +137,7 @@ border-top: solid 1px #fff;
     margin-top: 44px;
     margin-bottom: -19px;
 }
+.flexRow--deals{
+  height: 250px;
+}
 }

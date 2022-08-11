@@ -107,7 +107,7 @@
     "children": ["sticky-layout#1-mobile"]
   },
   "sticky-layout#1-mobile": {
-    "children": ["flex-layout.row#1-mobile"]
+    "children": ["flex-layout.row#1-mobile","search-bar"]
   },
   "flex-layout.row#1-mobile": {
     "children": [
@@ -130,6 +130,7 @@
 
   "menu#drawer": {
     "children": [
+      "vtex.menu@2.x:menu#category-menu-header"
     ],
     "props": {
       "orientation": "vertical"

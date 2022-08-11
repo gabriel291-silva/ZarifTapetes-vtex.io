@@ -60,3 +60,47 @@ display: flex;}
 .option-contents{
   margin-left: 100px;
 }
+
+@media only screen and (max-width: 600px ){
+  .footer {
+    display: flex;
+    padding: 32px 16px;
+    flex-direction: column;
+}
+  .links-contents {
+  display: flex;
+  flex-direction: column;
+}
+.list-links-contents {
+  list-style: none;
+  margin: 0px;
+}
+.links {
+   margin-top: 0px;
+  text-align: center;
+}
+.link-text {
+  text-decoration: none;
+  color: gray;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.option-contents {
+  margin-left: 0px;
+  padding: 0px 50px;
+}
+.redes-option-contents {
+  align-items: center;
+  text-align: center;
+}
+.title-payment-methods-option {
+  font-size: 18px;
+  color: gray;
+  font-weight: 800;
+  letter-spacing: 3px;
+  margin: 10px 0px;
+  text-align: center;
+}
+}

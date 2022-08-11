@@ -8,3 +8,9 @@
   top: 0;
   left: auto;
 }
+@media only screen and (max-width: 600px){
+  .stackItem--product{
+    width: 100%;
+    min-height: 165px;
+  }
+}
