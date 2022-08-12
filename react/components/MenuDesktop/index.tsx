@@ -1,38 +1,28 @@
 import React from "react"
 
-import styles from "./MenuMobile.css"
+import styles from "./MenuDesktop.css"
 
-function MenuMobile(){
-   const [menuMobileState,setMenuMobileState] = React.useState(false)
-   const [category1State,setCategory1State] = React.useState(false)
-   const [category2State,setCategory2State] = React.useState(false)
-   const [category3State,setCategory3State] = React.useState(false)
-   const [category4State,setCategory4State] = React.useState(false)
-   const [category5State,setCategory5State] = React.useState(false)
-   const [category6State,setCategory6State] = React.useState(false)
-  //  const [category7State,setCategory7State] = React.useState(false)
-   const [category8State,setCategory8State] = React.useState(false)
-   const [category9State,setCategory9State] = React.useState(false)
-   const [category10State,setCategory10State] = React.useState(false)
-   const [category11State,setCategory11State] = React.useState(false)
+function MenuDesktop(){
+  const [subCategory1State,setSubCategory1State] = React.useState(false)
+  const [subCategory2State,setSubCategory2State] = React.useState(false)
+  const [subCategory3State,setSubCategory3State] = React.useState(false)
+  const [subCategory4State,setSubCategory4State] = React.useState(false)
+  const [subCategory5State,setSubCategory5State] = React.useState(false)
+  const [subCategory6State,setSubCategory6State] = React.useState(false)
+  const [subCategory7State,setSubCategory7State] = React.useState(false)
+  const [subCategory8State,setSubCategory8State] = React.useState(false)
+  const [subCategory9State,setSubCategory9State] = React.useState(false)
+  const [subCategory10State,setSubCategory10State] = React.useState(false)
 
   return(
-    <div className={styles["menu-mobile-contents"]}>
-      <button className={styles["btn-open-menu-mobile"]} onClick={()=> setMenuMobileState(true)}> ||| </button>
-      {menuMobileState ?  <div className={styles["swrap-menu-mobile"]}>
-        <div className={styles["menu-mobile"]}>
-          <div className={styles["header-menu-mobile"]} onClick={()=> setMenuMobileState(false)}>
-            <div className={styles["icon-hamburger"]}> |||</div>
-            <button className={styles["btn-close-menu-mobile"]} >Fechar</button>
-          </div>
-          <div className={styles["title-departamento"]}> departamentos</div>
+    <div className={styles["menu-desktop-contents"]}>
+      <div className={styles["categorys-contents"]}>
 
-          <div className={styles["category-contents"]}>
-
-            <button className={styles["category-button"]} onClick={()=> setCategory1State(!category1State)}> ambiente {category1State? <div className={styles["triangulo-para-cima"]}></div>: <div className={styles["triangulo-para-baixo"]}></div>}</button>
-            {
-              category1State ? <div className={styles["category"]}>
-              <ul className={styles["sub-category-list"]}>
+        <div className={styles["category"]}>
+        <div className={styles["btn-category"]} >
+        <button className={styles["btn-open"]} onClick={()=> setSubCategory1State(true)}>ambiente</button>
+        {subCategory1State ?  <div className={styles["sub-category-contets"]}  onMouseLeave={() => setSubCategory1State(false)}>
+          <ul className={styles["sub-category-list"]}>
                 <li className={styles["sub-category"]}><a className={styles["links-sub-categorys"]} href="">Sala de estar</a></li>
                 <li className={styles["sub-category"]}><a className={styles["links-sub-categorys"]} href="">sala de jantar</a></li>
                 <li className={styles["sub-category"]}><a className={styles["links-sub-categorys"]} href="">quarto</a></li>
@@ -42,12 +32,15 @@ function MenuMobile(){
                 <li className={styles["sub-category"]}><a className={styles["links-sub-categorys"]} href="">externo</a></li>
                 <li className={styles["sub-category"]}><a className={styles["links-sub-categorys"]} href="">entrada</a></li>
               </ul>
-            </div> : ""
-            }
-            <button className={styles["category-button"]} onClick={()=> setCategory2State(!category2State)}> formato {category2State? <div className={styles["triangulo-para-cima"]}></div>: <div className={styles["triangulo-para-baixo"]}></div>}</button>
-            {
-              category2State ? <div className={styles["category"]}>
-              <ul className={styles["sub-category-list"]}>
+              <a href="" className={styles["links-categorys"]}> ver todos</a>
+
+        </div> : ""}
+        </div>
+
+        <div className={styles["btn-category"]} >
+         <button className={styles["btn-open"]} onClick={()=> setSubCategory2State(true)}>formato</button>
+        {subCategory2State ?  <div className={styles["sub-category-contets"]}  onMouseLeave={() => setSubCategory2State(false)}>
+          <ul className={styles["sub-category-list"]}>
                 <li className={styles["sub-category"]}><a className={styles["links-sub-categorys"]} href="">retangular</a></li>
                 <li className={styles["sub-category"]}><a className={styles["links-sub-categorys"]} href="">redondo</a></li>
                 <li className={styles["sub-category"]}><a className={styles["links-sub-categorys"]} href="">quadrado</a></li>
@@ -55,12 +48,16 @@ function MenuMobile(){
                 <li className={styles["sub-category"]}><a className={styles["links-sub-categorys"]} href="">tronco</a></li>
                 <li className={styles["sub-category"]}><a className={styles["links-sub-categorys"]} href="">passadeira</a></li>
               </ul>
-            </div> : ""
-            }
-            <button className={styles["category-button"]} onClick={()=> setCategory3State(!category3State)}> estilo de desenho {category3State? <div className={styles["triangulo-para-cima"]}></div>: <div className={styles["triangulo-para-baixo"]}></div>}</button>
-            {
-              category3State ? <div className={styles["category"]}>
-              <ul className={styles["sub-category-list"]}>
+              <a href="" className={styles["links-categorys"]}> ver todos</a>
+
+        </div> : ""}
+        </div>
+
+
+        <div className={styles["btn-category"]} >
+        <button className={styles["btn-open"]} onClick={()=> setSubCategory3State(true)}>estilo de desenho</button>
+        {subCategory3State ?  <div className={styles["sub-category-contets"]}  onMouseLeave={() => setSubCategory3State(false)}>
+          <ul className={styles["sub-category-list"]}>
                 <li className={styles["sub-category"]}><a className={styles["links-sub-categorys"]} href="">liso</a></li>
                 <li className={styles["sub-category"]}><a className={styles["links-sub-categorys"]} href="">moderno</a></li>
                 <li className={styles["sub-category"]}><a className={styles["links-sub-categorys"]} href="">patchwork</a></li>
@@ -71,12 +68,16 @@ function MenuMobile(){
                 <li className={styles["sub-category"]}><a className={styles["links-sub-categorys"]} href="">floral</a></li>
 
               </ul>
-            </div> : ""
-            }
-            <button className={styles["category-button"]} onClick={()=> setCategory4State(!category4State)}> tamanho {category4State? <div className={styles["triangulo-para-cima"]}></div>: <div className={styles["triangulo-para-baixo"]}></div>}</button>
-            {
-              category4State ? <div className={styles["category"]}>
-              <ul className={styles["sub-category-list"]}>
+              <a href="" className={styles["links-categorys"]}> ver todos</a>
+
+        </div> : ""}
+        </div>
+
+
+        <div className={styles["btn-category"]} >
+        <button className={styles["btn-open"]} onClick={()=> setSubCategory4State(true)}>tamanho</button>
+        {subCategory4State ?  <div className={styles["sub-category-contets"]}  onMouseLeave={() => setSubCategory4State(false)}>
+          <ul className={styles["sub-category-list"]}>
                 <li className={styles["sub-category"]}><a className={styles["links-sub-categorys"]} href="">50x100</a></li>
                 <li className={styles["sub-category"]}><a className={styles["links-sub-categorys"]} href="">100x150</a></li>
                 <li className={styles["sub-category"]}><a className={styles["links-sub-categorys"]} href="">150x200</a></li>
@@ -91,12 +92,17 @@ function MenuMobile(){
                 <li className={styles["sub-category"]}><a className={styles["links-sub-categorys"]} href="">outros</a></li>
 
               </ul>
-            </div> : ""
-            }
-            <button className={styles["category-button"]} onClick={()=> setCategory5State(!category5State)}> modelo {category5State? <div className={styles["triangulo-para-cima"]}></div>: <div className={styles["triangulo-para-baixo"]}></div>}</button>
-            {
-              category5State ? <div className={styles["category"]}>
-              <ul className={styles["sub-category-list"]}>
+              <a href="" className={styles["links-categorys"]}> ver todos</a>
+
+        </div> : ""}
+        </div>
+
+
+        <div className={styles["btn-category"]} >
+        <button className={styles["btn-open"]} onClick={()=> setSubCategory5State(true)}>modelo</button>
+
+        {subCategory5State ?  <div className={styles["sub-category-contets"]}  onMouseLeave={() => setSubCategory5State(false)}>
+          <ul className={styles["sub-category-list"]}>
                 <li className={styles["sub-category"]}><a className={styles["links-sub-categorys"]} href="">kilim</a></li>
                 <li className={styles["sub-category"]}><a className={styles["links-sub-categorys"]} href="">sisal</a></li>
                 <li className={styles["sub-category"]}><a className={styles["links-sub-categorys"]} href="">pele</a></li>
@@ -107,12 +113,17 @@ function MenuMobile(){
                 <li className={styles["sub-category"]}><a className={styles["links-sub-categorys"]} href="">oriental</a></li>
 
               </ul>
-            </div> : ""
-            }
-            <button className={styles["category-button"]} onClick={()=> setCategory6State(!category6State)}> origem {category6State? <div className={styles["triangulo-para-cima"]}></div>: <div className={styles["triangulo-para-baixo"]}></div>}</button>
-            {
-              category6State ? <div className={styles["category"]}>
-              <ul className={styles["sub-category-list"]}>
+              <a href="" className={styles["links-categorys"]}> ver todos</a>
+
+        </div> : ""}
+        </div>
+
+
+        <div className={styles["btn-category"]} >
+        <button className={styles["btn-open"]} onClick={()=> setSubCategory6State(true)}>origem</button>
+
+        {subCategory6State ?  <div className={styles["sub-category-contets"]}  onMouseLeave={() => setSubCategory6State(false)}>
+          <ul className={styles["sub-category-list"]}>
                 <li className={styles["sub-category"]}><a className={styles["links-sub-categorys"]} href="">nacional</a></li>
                 <li className={styles["sub-category"]}><a className={styles["links-sub-categorys"]} href="">turco</a></li>
                 <li className={styles["sub-category"]}><a className={styles["links-sub-categorys"]} href="">iraniano</a></li>
@@ -121,43 +132,63 @@ function MenuMobile(){
                 <li className={styles["sub-category"]}><a className={styles["links-sub-categorys"]} href="">Indiano</a></li>
 
               </ul>
-            </div> : ""
-            }
-            <button className={styles["category-button"]} onClick={()=> setCategory8State(!category8State)}> superfície {category8State? <div className={styles["triangulo-para-cima"]}></div>: <div className={styles["triangulo-para-baixo"]}></div>}</button>
-            {
-              category8State ? <div className={styles["category"]}>
-              <ul className={styles["sub-category-list"]}>
+              <a href="" className={styles["links-categorys"]}> ver todos</a>
+
+        </div> : ""}
+        </div>
+
+
+        <div className={styles["btn-category"]} >
+        <button className={styles["btn-open"]} onClick={()=> setSubCategory7State(true)}>superfície</button>
+
+        {subCategory7State ?  <div className={styles["sub-category-contets"]}  onMouseLeave={() => setSubCategory7State(false)}>
+          <ul className={styles["sub-category-list"]}>
                 <li className={styles["sub-category"]}><a className={styles["links-sub-categorys"]} href="">aveludado</a></li>
                 <li className={styles["sub-category"]}><a className={styles["links-sub-categorys"]} href="">bouclê</a></li>
                 <li className={styles["sub-category"]}><a className={styles["links-sub-categorys"]} href="">felpudo</a></li>
 
               </ul>
-            </div> : ""
-            }
-            <button className={styles["category-button"]} onClick={()=> setCategory9State(!category9State)}> produção {category9State? <div className={styles["triangulo-para-cima"]}></div>: <div className={styles["triangulo-para-baixo"]}></div>}</button>
-            {
-              category9State ? <div className={styles["category"]}>
-              <ul className={styles["sub-category-list"]}>
+              <a href="" className={styles["links-categorys"]}> ver todos</a>
+
+        </div> : ""}
+        </div>
+
+
+        <div className={styles["btn-category"]} >
+        <button className={styles["btn-open"]} onClick={()=> setSubCategory8State(true)}>produção</button>
+
+        {subCategory8State ?  <div className={styles["sub-category-contets"]}  onMouseLeave={() => setSubCategory8State(false)}>
+          <ul className={styles["sub-category-list"]}>
                 <li className={styles["sub-category"]}><a className={styles["links-sub-categorys"]} href="">artesanal</a></li>
                 <li className={styles["sub-category"]}><a className={styles["links-sub-categorys"]} href="">industrializado</a></li>
 
               </ul>
-            </div> : ""
-            }
-            <button className={styles["category-button"]} onClick={()=> setCategory10State(!category10State)}> natureza {category10State? <div className={styles["triangulo-para-cima"]}></div>: <div className={styles["triangulo-para-baixo"]}></div>}</button>
-            {
-              category10State ? <div className={styles["category"]}>
-              <ul className={styles["sub-category-list"]}>
+              <a href="" className={styles["links-categorys"]}> ver todos</a>
+
+        </div> : ""}
+        </div>
+
+
+        <div className={styles["btn-category"]} >
+        <button className={styles["btn-open"]} onClick={()=> setSubCategory9State(true)}>natureza</button>
+
+        {subCategory9State ?  <div className={styles["sub-category-contets"]}  onMouseLeave={() => setSubCategory9State(false)}>
+          <ul className={styles["sub-category-list"]}>
                 <li className={styles["sub-category"]}><a className={styles["links-sub-categorys"]} href="">natural</a></li>
                 <li className={styles["sub-category"]}><a className={styles["links-sub-categorys"]} href="">sintético</a></li>
 
               </ul>
-            </div> : ""
-            }
-            <button className={styles["category-button"]} onClick={()=> setCategory11State(!category11State)}> cores {category11State? <div className={styles["triangulo-para-cima"]}></div>: <div className={styles["triangulo-para-baixo"]}></div>}</button>
-            {
-              category11State ? <div className={styles["category"]}>
-              <ul className={styles["sub-category-list"]}>
+              <a href="" className={styles["links-categorys"]}> ver todos</a>
+
+        </div> : ""}
+        </div>
+
+
+        <div className={styles["btn-category"]} >
+        <button className={styles["btn-open"]} onClick={()=> setSubCategory10State(true)}>cores</button>
+
+        {subCategory10State ?  <div className={styles["sub-category-contets"]}  onMouseLeave={() => setSubCategory10State(false)}>
+          <ul className={styles["sub-category-list"]}>
                 <li className={styles["sub-category"]}><a className={styles["links-sub-categorys"]} href="">amarelo</a></li>
                 <li className={styles["sub-category"]}><a className={styles["links-sub-categorys"]} href="">azaul</a></li>
                 <li className={styles["sub-category"]}><a className={styles["links-sub-categorys"]} href="">bege</a></li>
@@ -171,15 +202,18 @@ function MenuMobile(){
                 <li className={styles["sub-category"]}><a className={styles["links-sub-categorys"]} href="">vermelho</a></li>
 
               </ul>
-            </div> : ""
-            }
+              <a href="" className={styles["links-categorys"]}> ver todos</a>
 
-          </div>
+        </div> : ""}
         </div>
-      </div>: "" }
+
+
+        </div>
+      </div>
 
     </div>
+
   )
 }
 
-export default MenuMobile
+export default MenuDesktop

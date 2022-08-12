@@ -10,6 +10,8 @@
   },
   "menu-mobile-new":{
     "component":"MenuMobile"
-
+  },
+  "menu-desktop-new":{
+   "component":"MenuDesktop"
   }
 }

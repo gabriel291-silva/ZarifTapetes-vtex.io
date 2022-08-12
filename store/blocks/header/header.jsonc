@@ -71,7 +71,7 @@
     "props": {
       "verticalAlign": "middle"
     },
-    "children": ["vtex.menu@2.x:menu#category-menu-header"]
+    "children": ["menu-desktop-new"]
   },
   "logo#desktop": {
     "props": {
