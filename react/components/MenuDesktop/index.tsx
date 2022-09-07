@@ -20,7 +20,7 @@ function MenuDesktop(){
 
         <div className={styles["category"]}>
         <div className={styles["btn-category"]} >
-        <button className={styles["btn-open"]} onClick={()=> setSubCategory1State(true)}>ambiente</button>
+        <a className={styles["btn-open"]} href="https://www.zariftapetes.com.br/tapetes/ambiente?initialMap=c&amp;initialQuery=tapetes&amp;map=category-1,category-2" onClick={()=> setSubCategory1State(true)}>ambiente</a>
         {subCategory1State ?  <div className={styles["sub-category-contets"]}  onMouseLeave={() => setSubCategory1State(false)}>
           <ul className={styles["sub-category-list"]}>
                 <li className={styles["sub-category"]}><a className={styles["links-sub-categorys"]} href="">Sala de estar</a></li>
@@ -38,7 +38,7 @@ function MenuDesktop(){
         </div>
 
         <div className={styles["btn-category"]} >
-         <button className={styles["btn-open"]} onClick={()=> setSubCategory2State(true)}>formato</button>
+         <a className={styles["btn-open"]} href="https://www.zariftapetes.com.br/tapetes/formato?initialMap=c&amp;initialQuery=tapetes&amp;map=category-1,category-2" onClick={()=> setSubCategory2State(true)}>formato</a>
         {subCategory2State ?  <div className={styles["sub-category-contets"]}  onMouseLeave={() => setSubCategory2State(false)}>
           <ul className={styles["sub-category-list"]}>
                 <li className={styles["sub-category"]}><a className={styles["links-sub-categorys"]} href="">retangular</a></li>
@@ -55,7 +55,7 @@ function MenuDesktop(){
 
 
         <div className={styles["btn-category"]} >
-        <button className={styles["btn-open"]} onClick={()=> setSubCategory3State(true)}>estilo de desenho</button>
+        <a className={styles["btn-open"]} href="https://www.zariftapetes.com.br/tapetes/estilo-de-desenho?initialMap=c&amp;initialQuery=tapetes&amp;map=category-1,category-2" onClick={()=> setSubCategory3State(true)}>estilo de desenho</a>
         {subCategory3State ?  <div className={styles["sub-category-contets"]}  onMouseLeave={() => setSubCategory3State(false)}>
           <ul className={styles["sub-category-list"]}>
                 <li className={styles["sub-category"]}><a className={styles["links-sub-categorys"]} href="">liso</a></li>
@@ -75,7 +75,7 @@ function MenuDesktop(){
 
 
         <div className={styles["btn-category"]} >
-        <button className={styles["btn-open"]} onClick={()=> setSubCategory4State(true)}>tamanho</button>
+        <a className={styles["btn-open"]} href="https://www.zariftapetes.com.br/tapetes/tamanho?initialMap=c&amp;initialQuery=tapetes&amp;map=category-1,category-2" onClick={()=> setSubCategory4State(true)}>tamanho</a>
         {subCategory4State ?  <div className={styles["sub-category-contets"]}  onMouseLeave={() => setSubCategory4State(false)}>
           <ul className={styles["sub-category-list"]}>
                 <li className={styles["sub-category"]}><a className={styles["links-sub-categorys"]} href="">50x100</a></li>
@@ -99,7 +99,7 @@ function MenuDesktop(){
 
 
         <div className={styles["btn-category"]} >
-        <button className={styles["btn-open"]} onClick={()=> setSubCategory5State(true)}>modelo</button>
+        <a className={styles["btn-open"]} href="https://www.zariftapetes.com.br/tapetes/modelo?initialMap=c&amp;initialQuery=tapetes&amp;map=category-1,category-2" onClick={()=> setSubCategory5State(true)}>modelo</a>
 
         {subCategory5State ?  <div className={styles["sub-category-contets"]}  onMouseLeave={() => setSubCategory5State(false)}>
           <ul className={styles["sub-category-list"]}>
@@ -120,7 +120,7 @@ function MenuDesktop(){
 
 
         <div className={styles["btn-category"]} >
-        <button className={styles["btn-open"]} onClick={()=> setSubCategory6State(true)}>origem</button>
+        <a className={styles["btn-open"]} href="https://www.zariftapetes.com.br/tapetes/origem?initialMap=c&amp;initialQuery=tapetes&amp;map=category-1,category-2" onClick={()=> setSubCategory6State(true)}>origem</a>
 
         {subCategory6State ?  <div className={styles["sub-category-contets"]}  onMouseLeave={() => setSubCategory6State(false)}>
           <ul className={styles["sub-category-list"]}>
@@ -139,7 +139,7 @@ function MenuDesktop(){
 
 
         <div className={styles["btn-category"]} >
-        <button className={styles["btn-open"]} onClick={()=> setSubCategory7State(true)}>superfície</button>
+        <a className={styles["btn-open"]} href="" onClick={()=> setSubCategory7State(true)}>superfície</a>
 
         {subCategory7State ?  <div className={styles["sub-category-contets"]}  onMouseLeave={() => setSubCategory7State(false)}>
           <ul className={styles["sub-category-list"]}>
@@ -155,7 +155,7 @@ function MenuDesktop(){
 
 
         <div className={styles["btn-category"]} >
-        <button className={styles["btn-open"]} onClick={()=> setSubCategory8State(true)}>produção</button>
+        <a className={styles["btn-open"]} href="https://www.zariftapetes.com.br/tapetes/producao?initialMap=c&amp;initialQuery=tapetes&amp;map=category-1,category-2" onClick={()=> setSubCategory8State(true)}>produção</a>
 
         {subCategory8State ?  <div className={styles["sub-category-contets"]}  onMouseLeave={() => setSubCategory8State(false)}>
           <ul className={styles["sub-category-list"]}>
@@ -170,7 +170,7 @@ function MenuDesktop(){
 
 
         <div className={styles["btn-category"]} >
-        <button className={styles["btn-open"]} onClick={()=> setSubCategory9State(true)}>natureza</button>
+        <a className={styles["btn-open"]} href="https://www.zariftapetes.com.br/tapetes/natureza?initialMap=c&amp;initialQuery=tapetes&amp;map=category-1,category-2" onClick={()=> setSubCategory9State(true)}>natureza</a>
 
         {subCategory9State ?  <div className={styles["sub-category-contets"]}  onMouseLeave={() => setSubCategory9State(false)}>
           <ul className={styles["sub-category-list"]}>
@@ -185,7 +185,7 @@ function MenuDesktop(){
 
 
         <div className={styles["btn-category"]} >
-        <button className={styles["btn-open"]} onClick={()=> setSubCategory10State(true)}>cores</button>
+        <a className={styles["btn-open"]} href="https://www.zariftapetes.com.br/tapetes/cores?initialMap=c&amp;initialQuery=tapetes&amp;map=category-1,category-2" onClick={()=> setSubCategory10State(true)}>cores</a>
 
         {subCategory10State ?  <div className={styles["sub-category-contets"]}  onMouseLeave={() => setSubCategory10State(false)}>
           <ul className={styles["sub-category-list"]}>

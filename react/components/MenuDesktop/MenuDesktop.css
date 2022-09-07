@@ -44,10 +44,12 @@
   text-transform: uppercase;
   color: gray;
   font-size: 14px;
+  text-decoration: none;
 }
 
 .btn-open:hover{
   background: rgb(064,128,255);
   color: #fff;
   border-radius: 5px;
+  padding: 6px;
 }
