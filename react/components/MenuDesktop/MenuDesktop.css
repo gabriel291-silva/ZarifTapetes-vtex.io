@@ -22,6 +22,8 @@
   padding: 9px 17px;
   min-width: 200px;
   min-height: 300px;
+  display: none;
+  flex-direction: column;
 }
 .sub-category{
   margin: 12px 0px;
